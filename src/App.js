@@ -57,7 +57,9 @@ const App = () => {
         text: taskInput,
         category: selectedCategory,
         addedDate: `${day}/${month}/${year}`,
-        taskDate: `${newTaskDay}/${newTaskMonth}/${newTaskYear}` || 'Sem data',
+        taskDate: newTaskDay && newTaskMonth && newTaskYear
+        ? `${newTaskDay}/${newTaskMonth}/${newTaskYear}`
+        : 'Sem data',
       };
 
       setTasks([newTask, ...tasks]); // Adiciona a nova tarefa à lista existente
