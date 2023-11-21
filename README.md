@@ -7,10 +7,10 @@ Este é um simples aplicativo To-Do List desenvolvido em React. Ele permite aos 
 <!-- Adicione suas capturas de tela aqui -->
 
 ### Tela Inicial
-<!-- ![Tela Inicial](public/imgit/Home.jpg) -->
+ ![Tela Inicial](public/imgit/Home.jpg) 
 
 ### Tela de Listagem
-<!-- ![Tela de Listagem](public/imgit/List.jpg) -->
+ ![Tela de Listagem](public/imgit/List.jpg)
 
 ## Tecnologias Utilizadas 🛠️
  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
