@@ -1,78 +1,38 @@
-# GitHub Codespaces ♥️ React
+# Projeto To-Do List 📝
 
-Welcome to your shiny new Codespace running React! We've got everything fired up and running for you to explore React.
+## Descrição 📄
+Este é um simples aplicativo To-Do List desenvolvido em React. Ele permite aos usuários criar, editar, excluir e visualizar tarefas, armazenando os dados localmente no navegador.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
+## Capturas de Tela 📸
+<!-- Adicione suas capturas de tela aqui -->
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+### Tela Inicial
+<!-- ![Tela Inicial](public/imgit/Home.jpg) -->
 
-This project was bootstrapped for you with [Create React App](https://github.com/facebook/create-react-app).
+### Tela de Listagem
+<!-- ![Tela de Listagem](public/imgit/List.jpg) -->
 
-## Available Scripts
+## Tecnologias Utilizadas 🛠️
+ ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+ ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+ ![Bulma](https://img.shields.io/badge/bulma-00D0B1?style=for-the-badge&logo=bulma&logoColor=white)
 
-In the project directory, you can run:
+## Como Executar o Projeto ▶️
+1. Clone o repositório: `git clone https://github.com/LucSena/To-Do-List.git`
+2. Navegue até o diretório do projeto: `cd To-Do-List`
+3. Instale as dependências: `npm install`
+4. Inicie o aplicativo: `npm start`
+5. Abra o navegador e acesse `http://localhost:3000`
 
-### `npm start`
+## Funcionalidades ⚙️
+- Adicionar tarefas com título, categoria e data
+- Editar tarefas existentes
+- Excluir tarefas
+- Marcar tarefas como concluídas
+- Filtrar tarefas por data, status e categoria
 
-We've already run this for you in the `Codespaces: server` terminal window below. If you need to stop the server for any reason you can just run `npm start` again to bring it back online.
+## Contribuindo 🤝
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) in the built-in Simple Browser (`Cmd/Ctrl + Shift + P > Simple Browser: Show`) to view your running application.
-
-The page will reload automatically when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Licença 📜
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
