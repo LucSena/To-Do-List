@@ -48,7 +48,7 @@ const App = () => {
       const year = currentDate.getFullYear();
 
       const newTaskDate = new Date(taskDate);
-      const newTaskDay = newTaskDate.getDate();
+      const newTaskDay = newTaskDate.getDate() + 1;
       const newTaskMonth = newTaskDate.getMonth() + 1;
       const newTaskYear = newTaskDate.getFullYear();
 
